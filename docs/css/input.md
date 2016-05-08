@@ -15,7 +15,7 @@ input:-webkit-autofill {
 去除搜索按键(Chrome浏览器)
 ``` CSS
 input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{
-
+  -webkit-appearance: none;
 }
 ```
 
@@ -44,4 +44,14 @@ button::-moz-focus-inner,input::-moz-focus-inner{
 ``` CSS
 ::-ms-reveal{display: none; }
 ::-ms-reveal{background-color:#f0f3f9; }
+```
+
+设置默认线框距离
+``` CSS
+input {outline-offset: 4px ;}
+```
+
+input字体垂直居中
+``` CSS
+font-family:  Tahoma,Arial, Helvetica,"Microsoft YaHei";
 ```

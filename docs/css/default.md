@@ -12,7 +12,7 @@ pointer-events: none;
 user-select: none;
 ```
 
-输入法禁止
+禁用输入法
 ``` CSS
 ime-mode:disabled;
 ```
