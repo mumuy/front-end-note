@@ -9,8 +9,8 @@ function hasClass(node,classname){
 ``` javascript
 function addClass(node,classname){
   if(!this.hasClass(node,classname)){
-      node.className = (node.className+" "+classname).replace(/^\s+|\s+$/g,'');
-    }
+    node.className = (node.className+" "+classname).replace(/^\s+|\s+$/g,'');
+  }
 }
 ```
 
