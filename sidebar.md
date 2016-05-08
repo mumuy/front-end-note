@@ -2,4 +2,4 @@
 [ditto:searchbar]
 
 ## CSS
-- [placeholder](#doc/css/placeholder)
+- [placeholder](#docs/css/placeholder)
