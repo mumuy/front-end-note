@@ -15,4 +15,7 @@
 - [cookie](#docs/javascript/cookie)
 - [class](#docs/javascript/class)
 - [兼容](#docs/javascript/compatibility)
+- [事件处理](#docs/javascript/event)
+- [克隆](#docs/javascript/clone)
 - [正则表达式](#docs/javascript/regexp)
+- [HTML5](#docs/javascript/html5)

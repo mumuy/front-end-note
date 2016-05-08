@@ -1,3 +1,5 @@
+跨浏览器DOM对象：[DOMUtil](https://github.com/mumuy/tools-library/blob/gh-pages/code/DOMUtil.js)
+
 获取指定class名称的DOM对象
 ``` javascript
 function getElementsByClassNamefunction(className,context,tagName){
