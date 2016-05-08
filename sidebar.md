@@ -1,2 +1,2 @@
-＃ 代码段
+# 笔记分享
 [ditto:searchbar]
