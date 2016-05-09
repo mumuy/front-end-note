@@ -14,6 +14,7 @@ Object.prototype.clone = function () {
 }
 ```
 简单的克隆：
+
 方法一
 ``` javascript
 obj = eval(uneval(o));
