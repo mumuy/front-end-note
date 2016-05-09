@@ -19,3 +19,4 @@
 - [克隆](#docs/javascript/clone)
 - [正则表达式](#docs/javascript/regexp)
 - [HTML5](#docs/javascript/html5)
+- [横竖屏判断](#docs/javascript/orientation)
