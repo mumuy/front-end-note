@@ -7,5 +7,7 @@ var updateOrientation =function(){
         console.log('竖屏状态');
     }
 };
-window.onorientationchange= updateOrientation;
+var supportsOrientationChange = "onorientationchange" in window,
+    orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";// 监听事件
+window.addEventListener(orientationEvent,updateOrientation);
 ```
