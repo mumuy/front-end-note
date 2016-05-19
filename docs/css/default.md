@@ -12,6 +12,13 @@ pointer-events: none;
 user-select: none;
 ```
 
+自定义文本选择
+``` CSS
+::selection { background: #e2eae2; }
+::-moz-selection { background: #e2eae2; }
+::-webkit-selection { background: #e2eae2; }
+```
+
 禁用输入法
 ``` CSS
 ime-mode:disabled;
