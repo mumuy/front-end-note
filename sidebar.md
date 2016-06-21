@@ -14,6 +14,7 @@
 ## Javascript
 - [cookie](#docs/javascript/cookie)
 - [class](#docs/javascript/class)
+- [数组](#docs/javascript/array)
 - [兼容](#docs/javascript/compatibility)
 - [事件处理](#docs/javascript/event)
 - [克隆](#docs/javascript/clone)
