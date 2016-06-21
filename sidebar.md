@@ -15,6 +15,8 @@
 - [cookie](#docs/javascript/cookie)
 - [class](#docs/javascript/class)
 - [数组](#docs/javascript/array)
+- [字符串](#docs/javascript/string)
+- [日期](#docs/javascript/date)
 - [兼容](#docs/javascript/compatibility)
 - [事件处理](#docs/javascript/event)
 - [克隆](#docs/javascript/clone)
