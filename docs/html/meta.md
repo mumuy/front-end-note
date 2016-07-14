@@ -13,6 +13,7 @@ HTML5
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+```
 
 ### 网页字符集
 ```html
