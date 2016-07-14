@@ -36,7 +36,7 @@
 
 jQuery插件模板
 ```javascript
-(function ($, window, document, undefined) {
+;(function ($, window, document, undefined) {
     $.fn.plugin = function(parameter) {
         parameter = parameter || {};
         var defaults = {
@@ -48,4 +48,22 @@ jQuery插件模板
         });
     };
 })(jQuery, window, document);
+```
+
+
+Require.js中使用jQuery 插件
+```javascript
+;(function (factory) {
+    if (typeof define === "function" && define.amd) {
+        // AMD模式
+        define([ "jquery" ], factory);
+    } else {
+        // 全局模式
+        factory(jQuery);
+    }
+}(function ($) {
+    $.fn.jqueryPlugin = function () {
+        //插件代码
+    };
+}));
 ```
