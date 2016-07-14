@@ -26,5 +26,4 @@
 - [横竖屏判断](#docs/javascript/orientation)
 - [全屏](#docs/javascript/fullscreen)
 - [文本选中](#docs/javascript/selection)
-- 
 - [插件模板](#docs/javascript/plugins)
