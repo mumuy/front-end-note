@@ -24,7 +24,7 @@ user-select: none;
 ime-mode:disabled;
 ```
 
-### 隐藏IE10默认在input框输入内容后显示“X”按钮
+### 禁止触发鼠标或者触屏事件
 ``` CSS
 pointer-events: none;
 ```
