@@ -1,4 +1,4 @@
-添加cookie
+### 添加cookie
 ``` javascript
 function addCookie(objName,objValue,objHours,objDomain,objPath){
     var str = objName + "=" + escape(objValue);
@@ -18,7 +18,7 @@ function addCookie(objName,objValue,objHours,objDomain,objPath){
 }
 ```
 
-获取指定名称的cookie的值
+### 获取指定名称的cookie的值
 ``` javascript
 function getCookie(objName){
   var arrStr = document.cookie.split("; ");
@@ -29,7 +29,7 @@ function getCookie(objName){
 }
 ```
 
-删除指定名称的cookie，可以将其过期时间设定为一个过去的时间
+### 删除指定名称的cookie，可以将其过期时间设定为一个过去的时间
 ``` javascript
 function delCookie(name){
   var date = new Date();

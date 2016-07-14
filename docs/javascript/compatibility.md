@@ -1,6 +1,6 @@
 跨浏览器DOM对象：[DOMUtil](https://github.com/mumuy/tools-library/blob/gh-pages/code/DOMUtil.js)
 
-获取指定class名称的DOM对象
+### 获取指定class名称的DOM对象
 ``` javascript
 function getElementsByClassNamefunction(className,context,tagName){
 	if(typeof context == 'string'){
@@ -29,7 +29,7 @@ function getElementsByClassNamefunction(className,context,tagName){
 }
 ```
 
-获取选中文本内容
+### 获取选中文本内容
 ``` javascript
 function getSelectedText() {
     if (window.getSelection) {
@@ -42,7 +42,7 @@ function getSelectedText() {
 }
 ```
 
-跨浏览器获取可视窗口大小
+### 跨浏览器获取可视窗口大小
 ``` javascript
 function getWindow () {
     if(typeof window.innerWidth !='undefined') {

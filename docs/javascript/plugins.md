@@ -1,4 +1,4 @@
-根据AMD规范写插件
+### 根据AMD规范写插件
 ```javascript
 ;(function () {
 	'use strict';
@@ -33,8 +33,7 @@
 }());
 ```
 
-
-jQuery插件模板
+### jQuery插件模板
 ```javascript
 ;(function ($, window, document, undefined) {
     $.fn.plugin = function(parameter) {
@@ -50,8 +49,7 @@ jQuery插件模板
 })(jQuery, window, document);
 ```
 
-
-Require.js中使用jQuery 插件
+### Require.js中使用jQuery 插件
 ```javascript
 ;(function (factory) {
     if (typeof define === "function" && define.amd) {

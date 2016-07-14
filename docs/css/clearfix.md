@@ -1,5 +1,4 @@
-常用的清除浮动方法:
-
+### 常用的清除浮动方法:
 方案一
 ``` CSS
 .clearfix:before,
@@ -16,7 +15,6 @@
   zoom: 1;
 }
 ```
-
 方案二
 ``` CSS
 .clearfix:before, .clearfix:after {

@@ -1,4 +1,4 @@
-对象深度克隆
+### 对象深度克隆
 ``` javascript
 Object.prototype.clone = function () {
     var newObj = {};
@@ -13,8 +13,9 @@ Object.prototype.clone = function () {
     return newObj
 }
 ```
-简单的克隆：
 
+
+### 简单的克隆：
 方法一
 ``` javascript
 obj = eval(uneval(o));
@@ -24,7 +25,7 @@ obj = eval(uneval(o));
 obj= JSON.parse(JSON.stringify(o));
 ```
 
-数组深度克隆
+### 数组深度克隆
 ``` javascript
 Array.prototype.clone = function () {
     var newArray = []
@@ -39,7 +40,7 @@ Array.prototype.clone = function () {
 }
 ```
 
-函数深度克隆
+### 函数深度克隆
 ``` javascript
 Function.prototype.clone = function () {
     var that = this;

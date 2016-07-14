@@ -1,6 +1,6 @@
 通用事件兼容框架：[EventUtil](https://github.com/mumuy/tools-library/blob/gh-pages/code/EventUtil.js)
 
-取消浏览器默认行为
+### 取消浏览器默认行为
 ``` javascript
 function stopDefault( e ) {
     if ( e && e.preventDefault ){
@@ -12,7 +12,7 @@ function stopDefault( e ) {
 }
 ```
 
-阻止事件冒泡
+### 阻止事件冒泡
 ``` javascript
 function stopBubble(e){
     if (e && e.stopPropagation) {
@@ -23,7 +23,7 @@ function stopBubble(e){
 }
 ```
 
-模拟触发点击事件
+### 模拟触发点击事件
 ``` javascript
 function simulateClick(el) {
   var evt;

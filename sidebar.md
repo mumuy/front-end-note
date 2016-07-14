@@ -22,6 +22,9 @@
 - [克隆](#docs/javascript/clone)
 - [正则表达式](#docs/javascript/regexp)
 - [HTML5](#docs/javascript/html5)
+- [CSS3](#docs/javascript/css3)
 - [横竖屏判断](#docs/javascript/orientation)
 - [全屏](#docs/javascript/fullscreen)
+- [文本选中](#docs/javascript/selection)
+- 
 - [插件模板](#docs/javascript/plugins)

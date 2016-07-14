@@ -1,4 +1,4 @@
-横屏监听
+### 横屏监听
 ``` javascript
 var updateOrientation =function(){
     if(window.orientation=='-90'|| window.orientation=='90'){

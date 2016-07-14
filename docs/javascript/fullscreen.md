@@ -1,4 +1,4 @@
-使用全屏
+### 使用全屏
 ``` javascript
 var docElm = document.documentElement;
 if (docElm.requestFullscreen) {    //W3C  
@@ -12,8 +12,7 @@ if (docElm.requestFullscreen) {    //W3C
 }
 ```
 
-
-退出全屏
+### 退出全屏
 ``` javascript
 if (document.exitFullscreen) {  
     document.exitFullscreen();  
@@ -26,8 +25,7 @@ if (document.exitFullscreen) {
 }
 ```
 
-
-事件监听
+### 事件监听
 ``` javascript
 document.addEventListener("fullscreenchange", function () {  
     fullscreenState.innerHTML = (document.fullscreen)? "" : "not ";}, false);  
@@ -43,8 +41,7 @@ document.addEventListener("msfullscreenchange", function () {
 }
 ```
 
-
-全屏样式设置
+### 全屏样式设置
 ``` css
 在浏览器全屏的使用我们还可以进行样式设置
 html:-moz-full-screen { 
