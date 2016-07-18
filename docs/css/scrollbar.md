@@ -10,3 +10,9 @@
 ::-webkit-scrollbar-thumb:vertical:hover{background:rgba(110,146,182,.4);}
 ::-webkit-scrollbar-thumb:horizontal{width:80px;height:10px;background-color:#ccc;}
 ```
+
+### iOS自定义滚动条兼容
+```css
+-webkit-overflow-scrolling:touch;		/* 惯性 */
+-webkit-transform:translate3d(0,0,0);	/* 下滑卡顿并出现空白 */
+```

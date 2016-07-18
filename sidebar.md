@@ -13,6 +13,7 @@
 - [重置默认行为](#docs/css/default)
 - [重置按键样式](#docs/css/input)
 - [自定义滚动条](#docs/css/scrollbar)
+- [滤镜](#docs/css/filter)
 - [横竖屏判断](#docs/css/orientation)
 - [全站变灰](#docs/css/gray)
 
