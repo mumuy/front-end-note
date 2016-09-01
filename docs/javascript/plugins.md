@@ -33,6 +33,41 @@
 }());
 ```
 
+### 根据CMD规范写插件
+```javascript
+;(function(factory) {
+    // CMD/SeaJS
+    if(typeof define === "function") {
+        define(factory);
+    }
+    // No module loader
+    else {
+        factory('', window['ue'] = window['ue'] || {}, '');
+    }
+}(function(require, exports, module) {
+	var pluginName = function(options){
+        if(this.constructor !== pluginName){
+            return new pluginName(options);
+        }
+        this.init(options);
+        return this;
+    };
+
+    pluginName.prototype = {
+        constructor : pluginName,
+        init : function(options){
+
+        }
+    }
+
+    if({}.toString.call(module) == '[object Object]' ){
+        module.exports = pluginName;
+    }else{
+        exports.pluginName = pluginName;
+    }
+}));
+```
+
 ### jQuery插件模板
 ```javascript
 ;(function ($, window, document, undefined) {
