@@ -25,3 +25,10 @@ function strToJson(str){
 	return JSON.parse(str);
 }
 ```
+
+### 补零
+```javascript
+function pad(s) {
+  return ('0' + s).slice(-2);
+}
+```
