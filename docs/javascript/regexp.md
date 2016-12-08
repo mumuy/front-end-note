@@ -27,3 +27,6 @@
 ``` javascript
 /^([a-zA-Z0-9][-a-zA-Z0-9]{0,62}\.)+([a-zA-Z]{0,63})\.?$/
 ```
+
+### 任意Unicode字符
+/[\0-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF]/
