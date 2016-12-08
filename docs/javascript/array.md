@@ -48,3 +48,7 @@ var args = Array.prototype.slice.call(arguments, 0);
 ``` javascript
 var args = [].slice.call(arguments);
 ```
+ES6的实现
+``` javascript
+var args = Array.from(arguments);
+```
