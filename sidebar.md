@@ -32,6 +32,8 @@
 - [export](#docs/javascript/export)
 - [横竖屏判断](#docs/javascript/orientation)
 - [全屏](#docs/javascript/fullscreen)
+- [经纬度](#docs/javascript/geolocation)
+- [排序方式](#docs/javascript/sort)
 - [文本选中](#docs/javascript/selection)
 - [工具方法](#docs/javascript/tool)
 - [插件模板](#docs/javascript/plugins)
