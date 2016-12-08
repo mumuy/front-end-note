@@ -37,3 +37,4 @@
 - [文本选中](#docs/javascript/selection)
 - [工具方法](#docs/javascript/tool)
 - [插件模板](#docs/javascript/plugins)
+- [框架](#docs/javascript/frame)
