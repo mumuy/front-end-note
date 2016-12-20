@@ -53,7 +53,13 @@ ES6的实现
 var args = Array.from(arguments);
 ```
 
-### 不是用for循环创造0～100的数组
+### 不用for循环创造0～100的数组
 ``` javascript
 Array.from({length:100}).map(function(item,index){return index});
+```
+``` javascript
+Array(100).join(",").split(",").map(function(key,index){return index;})
+```
+``` javascript
+Object.keys(Array(100).toString().split(","))
 ```

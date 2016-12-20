@@ -28,7 +28,12 @@ function strToJson(str){
 
 ### 补零
 ```javascript
-function pad(s) {
-  return ('0' + s).slice(-2);
+function prefixInteger(num, length) {
+    return (num / Math.pow(10, length)).toFixed(length).substr(2);
+}
+```
+```javascript
+function prefixInteger(num, length) {
+    return (Array(length).join(0) + num).slice(-length);
 }
 ```
