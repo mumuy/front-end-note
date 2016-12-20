@@ -58,8 +58,8 @@ var args = Array.from(arguments);
 Array.from({length:100}).map(function(item,index){return index});
 ```
 ``` javascript
-Array(100).join(",").split(",").map(function(key,index){return index;})
+Array(100).join(",").split(",").map(function(key,index){return index;});
 ```
 ``` javascript
-Object.keys(Array(100).toString().split(","))
+Object.keys(Array(100).toString().split(","));
 ```

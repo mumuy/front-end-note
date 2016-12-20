@@ -23,6 +23,7 @@
 - [数组](#docs/javascript/array)
 - [字符串](#docs/javascript/string)
 - [日期](#docs/javascript/date)
+- [函数](#docs/javascript/function)
 - [兼容](#docs/javascript/compatibility)
 - [事件处理](#docs/javascript/event)
 - [克隆](#docs/javascript/clone)
