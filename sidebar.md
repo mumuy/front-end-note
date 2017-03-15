@@ -6,6 +6,8 @@
 - [link](#docs/html/link)
 - [属性](#docs/html/property)
 - [离线存储](#docs/html/offline)
+- [图片](#docs/html/image)
+- [浏览器](#docs/html/browser)
 
 ## CSS
 - [reset.css](#docs/css/reset)

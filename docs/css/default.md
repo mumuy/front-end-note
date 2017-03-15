@@ -1,8 +1,3 @@
-### 禁用鼠标
-``` CSS
-pointer-events: none;
-```
-
 ### 禁止文本选中
 ``` CSS
 -moz-user-select: none;
