@@ -10,3 +10,23 @@
 ```html
 <link rel="apple-touch-startup-image" href="startup.png"/>
 ```
+
+### DNS预加载
+```html
+<link rel="dns-prefetch" href="//www.passer-by.com">
+```
+
+### 页面预加载
+```html
+<link rel="prefetch" href="//www.passer-by.com"/>
+```
+
+### 提前加载整个页面
+```html
+<link rel="prerender" href="//www.passer-by.com"/>
+```
+
+### 提前加载资源
+```html
+<link rel='subresource' href='main.js'>
+```
