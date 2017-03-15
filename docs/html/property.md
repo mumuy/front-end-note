@@ -13,6 +13,11 @@
 <input type="text" x-webkit-speech lang="zh-CN"/>
 ```
 
+### 表单必填项
+```html
+<input type="text" name="username" aria-required="true"/>
+```
+
 ### 可开启该元素的编辑模式
 ```html
 <div contentEditable='true'></div>
