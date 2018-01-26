@@ -1,6 +1,5 @@
 # Web前端
 [ditto:searchbar]
-[返回首页](http://passer-by.com/)
 
 ## HTML
 - [meta](#docs/html/meta)
